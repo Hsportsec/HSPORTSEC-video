@@ -78,4 +78,3 @@ body {
     margin-top: 0;
     color: #525551;
   }
-logo: { file: "https://pbs.twimg.com/profile_banners/1257478230350708736/1713814326/1080x360", hide: "false", position: "top-right" } });
