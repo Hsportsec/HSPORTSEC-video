@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #636962;
+  }
+  .video-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .video-js {
+    background-color: #7d7777;
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .column {
+    width: 45%;
+  }
+  .column.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 10px;
+    background-color: #484d43;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    border-color: #e7e7e7;
+    box-shadow: 1px 5px #888888;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .button img {
+    max-width: 130px; /* Ajusta el tamaÃ±o segÃºn tus necesidades */
+    height: auto;
+  }
+  .button:hover {
+    background-color: rgba(180, 190, 185, 0.7);
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(70, 71, 71, 0.5);
+    transform: translateY(5px);  
+    border-radius: 12px;
+    border: 0.5px solid black;
+    border-color: #e7e7e7;
+    box-shadow: 1px 5px #888888;
+  }
+  .txt {
+    text-align: center;
+    margin-top: 0;
+    padding: 10px 10px;
+    background-color: #262828;
+    color: #6df07c;
+    border: none;
+  }
+  .txt2 {
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    background-color: #262828;
+    color: #6df07c;
+    border: none;
+  }
+  .txxt {
+    margin-top: 0;
+    color: #525551;
+  }
+logo: { file: "https://pbs.twimg.com/profile_banners/1257478230350708736/1713814326/1080x360", hide: "false", position: "top-right" } });
